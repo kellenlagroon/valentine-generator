@@ -212,8 +212,8 @@
             }
 
             // Create the link with the name as a URL parameter
-            const baseUrl = window.location.href.replace('generator.html', 'valentine.html');
-            const link = `${baseUrl}?name=${encodeURIComponent(name)}`;
+            const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '/');
+            const link = `${baseUrl}valentine.html?name=${encodeURIComponent(name)}`;
             
             generatedLink.textContent = link;
             result.classList.add('show');
