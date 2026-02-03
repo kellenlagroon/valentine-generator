@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/24998011/README.md)
-# Valentine's Day Generator 💝
+# Valentine's Day Generator 💝 
 
 A fun, interactive Valentine's Day website where you can create personalized Valentine pages to send to someone special!
 
